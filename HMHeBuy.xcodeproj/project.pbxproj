@@ -51,6 +51,7 @@
 		04069D4D1BCA230400142333 /* HMHeBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMHeBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04069D511BCA230400142333 /* HMHeBuyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMHeBuyUITests.m; sourceTree = "<group>"; };
 		04069D531BCA230400142333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9109681BEC7E6F0000CD63 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 		04069D2C1BCA230400142333 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE9109681BEC7E6F0000CD63 /* PrefixHeader.pch */,
 				04069D2D1BCA230400142333 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -498,6 +500,7 @@
 				04069D581BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04069D591BCA230400142333 /* Build configuration list for PBXNativeTarget "HMHeBuyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				04069D5B1BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04069D5C1BCA230400142333 /* Build configuration list for PBXNativeTarget "HMHeBuyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				04069D5E1BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

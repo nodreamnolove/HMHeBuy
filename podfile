@@ -1,0 +1,10 @@
+platform :ios, "7.0"
+
+target "HMHeBuy" do
+    
+    pod 'AFNetworking', '~> 1.3.4'    
+    pod 'FMDB', '~> 2.3’      
+    pod 'SDWebImage', '~> 3.7.3'
+    pod 'SBJson', '~> 3.2'
+    
+end

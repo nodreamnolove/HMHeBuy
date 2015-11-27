@@ -425,7 +425,6 @@
 		AE29E3A71C043AD000CCAD14 /* dangmian_.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1B61C043ACE00CCAD14 /* dangmian_.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E3A81C043AD000CCAD14 /* down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1B71C043ACE00CCAD14 /* down_icon.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E3A91C043AD000CCAD14 /* FlotteryTicket_redBallNew.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1B81C043ACE00CCAD14 /* FlotteryTicket_redBallNew.png */; settings = {ASSET_TAGS = (); }; };
-		AE29E3AA1C043AD000CCAD14 /* FlotteryTicket_whiteBallNew.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1B91C043ACE00CCAD14 /* FlotteryTicket_whiteBallNew.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E3AB1C043AD000CCAD14 /* fujinmendian-shuaxin.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1BA1C043ACE00CCAD14 /* fujinmendian-shuaxin.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E3AC1C043AD000CCAD14 /* fujinmendian.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1BB1C043ACE00CCAD14 /* fujinmendian.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E3AD1C043AD000CCAD14 /* fuzhi_.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E1BC1C043ACE00CCAD14 /* fuzhi_.png */; settings = {ASSET_TAGS = (); }; };
@@ -868,6 +867,8 @@
 		AE29E5621C043AD100CCAD14 /* 登陆-注册-button.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E3781C043AD000CCAD14 /* 登陆-注册-button.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E5631C043AD100CCAD14 /* 登陆-输入框分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E3791C043AD000CCAD14 /* 登陆-输入框分割线.png */; settings = {ASSET_TAGS = (); }; };
 		AE29E5641C043AD100CCAD14 /* 门店首次登录背景.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29E37A1C043AD000CCAD14 /* 门店首次登录背景.png */; settings = {ASSET_TAGS = (); }; };
+		AE7ADF651C083EC80035797A /* ExceptionHandlers.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ADF641C083EC80035797A /* ExceptionHandlers.m */; settings = {ASSET_TAGS = (); }; };
+		AE7ADF691C0867CB0035797A /* ckk.pem in Resources */ = {isa = PBXBuildFile; fileRef = AE7ADF681C0867CB0035797A /* ckk.pem */; settings = {ASSET_TAGS = (); }; };
 		ECD1B6BAB97806187A3A5B02 /* libPods-HMHeBuy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB04B1BA41CA4DE9E529F9A9 /* libPods-HMHeBuy.a */; };
 /* End PBXBuildFile section */
 
@@ -1317,7 +1318,6 @@
 		AE29E1B61C043ACE00CCAD14 /* dangmian_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangmian_.png; sourceTree = "<group>"; };
 		AE29E1B71C043ACE00CCAD14 /* down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_icon.png; sourceTree = "<group>"; };
 		AE29E1B81C043ACE00CCAD14 /* FlotteryTicket_redBallNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlotteryTicket_redBallNew.png; sourceTree = "<group>"; };
-		AE29E1B91C043ACE00CCAD14 /* FlotteryTicket_whiteBallNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlotteryTicket_whiteBallNew.png; sourceTree = "<group>"; };
 		AE29E1BA1C043ACE00CCAD14 /* fujinmendian-shuaxin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fujinmendian-shuaxin.png"; sourceTree = "<group>"; };
 		AE29E1BB1C043ACE00CCAD14 /* fujinmendian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fujinmendian.png; sourceTree = "<group>"; };
 		AE29E1BC1C043ACE00CCAD14 /* fuzhi_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuzhi_.png; sourceTree = "<group>"; };
@@ -1760,6 +1760,10 @@
 		AE29E3781C043AD000CCAD14 /* 登陆-注册-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆-注册-button.png"; sourceTree = "<group>"; };
 		AE29E3791C043AD000CCAD14 /* 登陆-输入框分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆-输入框分割线.png"; sourceTree = "<group>"; };
 		AE29E37A1C043AD000CCAD14 /* 门店首次登录背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "门店首次登录背景.png"; sourceTree = "<group>"; };
+		AE7ADF631C083EC80035797A /* ExceptionHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionHandlers.h; sourceTree = "<group>"; };
+		AE7ADF641C083EC80035797A /* ExceptionHandlers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandlers.m; sourceTree = "<group>"; };
+		AE7ADF671C08678E0035797A /* simplepush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simplepush.h; sourceTree = "<group>"; };
+		AE7ADF681C0867CB0035797A /* ckk.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ckk.pem; sourceTree = "<group>"; };
 		AE9109681BEC7E6F0000CD63 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		EB04B1BA41CA4DE9E529F9A9 /* libPods-HMHeBuy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMHeBuy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1815,6 +1819,8 @@
 		04069D2B1BCA230400142333 /* HMHeBuy */ = {
 			isa = PBXGroup;
 			children = (
+				AE7ADF631C083EC80035797A /* ExceptionHandlers.h */,
+				AE7ADF641C083EC80035797A /* ExceptionHandlers.m */,
 				04069D2F1BCA230400142333 /* AppDelegate.h */,
 				04069D301BCA230400142333 /* AppDelegate.m */,
 				04069D321BCA230400142333 /* ViewController.h */,
@@ -1859,6 +1865,7 @@
 		AE29DEAC1C043A7700CCAD14 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				AE7ADF661C08676E0035797A /* simplepush */,
 				AE29E1881C043ACE00CCAD14 /* NewImage */,
 				AE29E1831C043ABD00CCAD14 /* Media */,
 				AE29DEAD1C043AB200CCAD14 /* Image */,
@@ -2314,7 +2321,6 @@
 				AE29E1B61C043ACE00CCAD14 /* dangmian_.png */,
 				AE29E1B71C043ACE00CCAD14 /* down_icon.png */,
 				AE29E1B81C043ACE00CCAD14 /* FlotteryTicket_redBallNew.png */,
-				AE29E1B91C043ACE00CCAD14 /* FlotteryTicket_whiteBallNew.png */,
 				AE29E1BA1C043ACE00CCAD14 /* fujinmendian-shuaxin.png */,
 				AE29E1BB1C043ACE00CCAD14 /* fujinmendian.png */,
 				AE29E1BC1C043ACE00CCAD14 /* fuzhi_.png */,
@@ -2828,6 +2834,15 @@
 			path = "登录";
 			sourceTree = "<group>";
 		};
+		AE7ADF661C08676E0035797A /* simplepush */ = {
+			isa = PBXGroup;
+			children = (
+				AE7ADF681C0867CB0035797A /* ckk.pem */,
+				AE7ADF671C08678E0035797A /* simplepush.h */,
+			);
+			name = simplepush;
+			sourceTree = "<group>";
+		};
 		D5BF7E73E71391590B382EA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2914,6 +2929,7 @@
 				TargetAttributes = {
 					04069D281BCA230400142333 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5E27AV4V35;
 					};
 					04069D411BCA230400142333 = {
 						CreatedOnToolsVersion = 7.0;
@@ -3026,7 +3042,6 @@
 				AE29E38E1C043AD000CCAD14 /* button_orange_normal@2x.png in Resources */,
 				AE29E17A1C043AB400CCAD14 /* weixin@2x.png in Resources */,
 				AE29E5621C043AD100CCAD14 /* 登陆-注册-button.png in Resources */,
-				AE29E3AA1C043AD000CCAD14 /* FlotteryTicket_whiteBallNew.png in Resources */,
 				AE29E3821C043AD000CCAD14 /* arrow_top_gray.png in Resources */,
 				AE29E01B1C043AB400CCAD14 /* active_efubao_click@2x.png in Resources */,
 				AE29E4A71C043AD100CCAD14 /* right_shopcart_select@2x.png in Resources */,
@@ -3087,6 +3102,7 @@
 				AE29E04B1C043AB400CCAD14 /* commit.png in Resources */,
 				AE29E12A1C043AB400CCAD14 /* rule_left_unselect.png in Resources */,
 				AE29E3ED1C043AD000CCAD14 /* searchBox244@2x.png in Resources */,
+				AE7ADF691C0867CB0035797A /* ckk.pem in Resources */,
 				AE29E1241C043AB400CCAD14 /* right_item_btn@2x.png in Resources */,
 				AE29E4531C043AD100CCAD14 /* os_kefu-tucao-xiao@2x.png in Resources */,
 				AE29E02B1C043AB400CCAD14 /* caipiao_01.png in Resources */,
@@ -3865,6 +3881,7 @@
 			files = (
 				04069D341BCA230400142333 /* ViewController.m in Sources */,
 				04069D311BCA230400142333 /* AppDelegate.m in Sources */,
+				AE7ADF651C083EC80035797A /* ExceptionHandlers.m in Sources */,
 				04069D2E1BCA230400142333 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4007,13 +4024,14 @@
 			baseConfigurationReference = A3913514153A4A6390280385 /* Pods-HMHeBuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.hmh.eBuy";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.hmh.eBuy";
+				CODE_SIGN_IDENTITY = "iPhone Developer: menghu hu (E372H9S5YK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: menghu hu (E372H9S5YK)";
 				INFOPLIST_FILE = HMHeBuy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hmh.eBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90157c66-0d60-4cce-9b98-ed8729591ace";
 			};
 			name = Debug;
 		};
@@ -4022,12 +4040,14 @@
 			baseConfigurationReference = 30338B60700D2814BEBB4CF6 /* Pods-HMHeBuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.hmh.eBuy";
+				CODE_SIGN_IDENTITY = "iPhone Developer: menghu hu (E372H9S5YK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: menghu hu (E372H9S5YK)";
 				INFOPLIST_FILE = HMHeBuy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hmh.eBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90157c66-0d60-4cce-9b98-ed8729591ace";
 			};
 			name = Release;
 		};

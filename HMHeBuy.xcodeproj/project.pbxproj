@@ -15,6 +15,8 @@
 		04069D3C1BCA230400142333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04069D3A1BCA230400142333 /* LaunchScreen.storyboard */; };
 		04069D471BCA230400142333 /* HMHeBuyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04069D461BCA230400142333 /* HMHeBuyTests.m */; };
 		04069D521BCA230400142333 /* HMHeBuyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04069D511BCA230400142333 /* HMHeBuyUITests.m */; };
+		04B9F3731C57F0690037FB7A /* ObuSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9F3711C57EF790037FB7A /* ObuSDK.framework */; };
+		04B9F3771C57F0D20037FB7A /* ObuSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9F3761C57F0D20037FB7A /* ObuSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04B9F3751C57F0690037FB7A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		04069D291BCA230400142333 /* HMHeBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMHeBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04069D2D1BCA230400142333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +66,8 @@
 		04069D4D1BCA230400142333 /* HMHeBuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMHeBuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04069D511BCA230400142333 /* HMHeBuyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMHeBuyUITests.m; sourceTree = "<group>"; };
 		04069D531BCA230400142333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B9F3711C57EF790037FB7A /* ObuSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObuSDK.framework; path = /Users/mac/Desktop/HMHeBuy/HMHeBuy/ObuSDK.framework; sourceTree = "<absolute>"; };
+		04B9F3761C57F0D20037FB7A /* ObuSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObuSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B9F3771C57F0D20037FB7A /* ObuSDK.framework in Frameworks */,
+				04B9F3731C57F0690037FB7A /* ObuSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +120,7 @@
 		04069D2B1BCA230400142333 /* HMHeBuy */ = {
 			isa = PBXGroup;
 			children = (
+				04B9F3761C57F0D20037FB7A /* ObuSDK.framework */,
 				04069D2F1BCA230400142333 /* AppDelegate.h */,
 				04069D301BCA230400142333 /* AppDelegate.m */,
 				04069D321BCA230400142333 /* ViewController.h */,
@@ -150,6 +170,7 @@
 				04069D251BCA230400142333 /* Sources */,
 				04069D261BCA230400142333 /* Frameworks */,
 				04069D271BCA230400142333 /* Resources */,
+				04B9F3751C57F0690037FB7A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,6 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMHeBuy",
+				);
 				INFOPLIST_FILE = HMHeBuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hmh.HMHeBuy;
@@ -424,6 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMHeBuy",
+				);
 				INFOPLIST_FILE = HMHeBuy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hmh.HMHeBuy;
@@ -498,6 +527,7 @@
 				04069D581BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04069D591BCA230400142333 /* Build configuration list for PBXNativeTarget "HMHeBuyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +536,7 @@
 				04069D5B1BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04069D5C1BCA230400142333 /* Build configuration list for PBXNativeTarget "HMHeBuyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +545,7 @@
 				04069D5E1BCA230400142333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

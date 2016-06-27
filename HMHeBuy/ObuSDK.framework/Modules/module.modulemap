@@ -1,0 +1,6 @@
+framework module ObuSDK {
+  umbrella header "ObuSDK.h"
+
+  export *
+  module * { export * }
+}
